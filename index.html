@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Chemical inventory
+    </header>
+    <main>
+        <div class="modifier">
+            <button class="nav-item" id="add-button">Add</button>
+            <button class="nav-item" id="edit-button">Edit</button>
+            <button class="nav-item" id="asce-sort">Sort Asce</button>
+            <button class="nav-item" id="desc-sort">Sort Desc</button>
+            <button class="nav-item" id="delete-button">Delete</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">✔</th>
+                        <th scope="col">Chemical Name</th>
+                        <th scope="col">Vendor</th>
+                        <th scope="col">Density</th>
+                        <th scope="col">Viscosity</th>
+                        <th scope="col">Packaging</th>
+                        <th scope="col">Pack Size</th>
+                        <th scope="col">Unit</th>
+                        <th scope="col">Quantity</th>
+                    </tr>
+                </thead>
+                <tbody id="data-edit">
+                    <!-- data rows goes here  -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
